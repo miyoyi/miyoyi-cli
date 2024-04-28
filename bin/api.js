@@ -1,6 +1,5 @@
 // bin/api.js
 const https = require('https')
-
 /** 获取用户git仓库列表信息 */
 function getGitReposList(username) {
   return new Promise((resolve, reject) => {
